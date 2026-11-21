@@ -1,0 +1,61 @@
+{
+  "name": "freiheit",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "OpenAI/Anthropic compatible CLI aggregating free model sources (OpenCode Zen + Kilo).",
+  "author": "Vincent-the-gamer",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "bin": {
+    "freiheit": "bin/freiheit.js"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.mts"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/index.d.mts"
+      ]
+    }
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "tsx": "tsx",
+    "build": "tsdown",
+    "test": "vitest",
+    "dep": "taze major -I"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Vincent-the-gamer/pkg-name#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vincent-the-gamer/pkg-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vincent-the-gamer/pkg-name/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com",
+    "access": "public"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "cac": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "taze": "^21.3.0",
+    "tsdown": "^0.23.7",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
