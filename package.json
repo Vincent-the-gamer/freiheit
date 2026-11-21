@@ -35,13 +35,13 @@
     "dep": "taze major -I"
   },
   "license": "MIT",
-  "homepage": "https://github.com/Vincent-the-gamer/pkg-name#readme",
+  "homepage": "https://github.com/Vincent-the-gamer/friheit#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vincent-the-gamer/pkg-name.git"
+    "url": "git+https://github.com/Vincent-the-gamer/freiheit.git"
   },
   "bugs": {
-    "url": "https://github.com/Vincent-the-gamer/pkg-name/issues"
+    "url": "https://github.com/Vincent-the-gamer/freiheit/issues"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.com",
