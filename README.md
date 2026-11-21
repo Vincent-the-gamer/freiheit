@@ -20,7 +20,7 @@ npx freiheit --help
 npx freiheit models
 
 # Start the endpoint on the local network
-npx freiheit serve --host 0.0.0.0
+npx freiheit --host 0.0.0.0
 ```
 
 ## Endpoints
