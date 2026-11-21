@@ -2,7 +2,7 @@
 
 English | [中文](README.zh-CN.md)
 
-Set large models free: a CLI for free model endpoints, inspired by dsh-our-free-model.
+Set large models free: a CLI for free model endpoints, inspired by [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model).
 
 An OpenAI / Anthropic compatible HTTP gateway that aggregates **free** model sources:
 
@@ -15,6 +15,9 @@ Only free tiers are included. Paid or restricted channels (EAC, ten-account, agg
 
 ```bash
 npx freiheit --help
+
+# List available models
+npx freiheit models
 
 # Start the endpoint on the local network
 npx freiheit serve --host 0.0.0.0

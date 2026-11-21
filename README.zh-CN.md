@@ -2,7 +2,7 @@
 
 [English](README.md) | 中文
 
-实现大模型自由，免费模型端点 CLI，灵感来自 dsh-our-free-model。
+实现大模型自由，免费模型端点 CLI，灵感来自 [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)。
 
 兼容 OpenAI / Anthropic 的 HTTP 网关，聚合**免费**模型来源：
 
@@ -15,6 +15,9 @@
 
 ```bash
 npx freiheit --help
+
+# 列出可用模型
+npx freiheit models
 
 # 以局域网启动端点
 npx freiheit --host 0.0.0.0
