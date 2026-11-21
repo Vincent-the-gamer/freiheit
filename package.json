@@ -49,7 +49,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "cac": "^7.1.0"
+    "cac": "^7.1.1"
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
