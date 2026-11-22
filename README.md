@@ -1,8 +1,15 @@
-# freiheit
+<div align="center">
+    <img src="static/banner.png" style="width: 1000px;"/>
+    <h1>freiheit</h1>
+    <p>Set large models free</p>
+</div>
+
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
 
 English | [中文](README.zh-CN.md)
 
-Set large models free: a CLI for free model endpoints, inspired by [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model).
+A CLI for free model endpoints, inspired by [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model).
 
 An OpenAI / Anthropic compatible HTTP gateway that aggregates **free** model sources:
 
@@ -40,3 +47,9 @@ Install Bun: https://bun.sh
 
 - Some OpenCode free model ids are region-sensitive (beam/crouton/pulse/muse-spark).
 - Free quota is pooled per egress IP and rate-limited; heavy use may trigger `FreeUsageLimitError`.
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/v/freiheit?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/freiheit
+[npm-downloads-src]: https://img.shields.io/npm/dm/freiheit?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/freiheit
