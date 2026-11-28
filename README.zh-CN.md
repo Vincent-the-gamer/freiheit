@@ -47,6 +47,7 @@ OpenCode 推理通过基于 Bun 的传输层路由（上游 `egressFetch` 将 op
 
 - 部分 OpenCode 免费模型的 id 存在地区敏感性（beam/crouton/pulse/muse-spark）。
 - 免费额度是按出口 IP 池化并限制配额的；大量使用可能触发 `FreeUsageLimitError`。
+- 本地状态（会话映射、Bun worker）写入 `~/.freiheit`；可通过 `FREIHEIT_HOME` 覆盖。
 
 
 <!-- Badges -->

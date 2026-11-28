@@ -1,6 +1,6 @@
 {
   "name": "freiheit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "OpenAI/Anthropic compatible CLI aggregating free model sources (OpenCode Zen + Kilo).",
   "author": "Vincent-the-gamer",
@@ -52,7 +52,7 @@
     "cac": "^7.1.1"
   },
   "devDependencies": {
-    "@types/node": "^26.6.6",
+    "@types/node": "^26.6.11",
     "taze": "^21.3.0",
     "tsdown": "^0.23.7",
     "tsx": "^4.23.15",

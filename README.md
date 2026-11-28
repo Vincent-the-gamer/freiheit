@@ -47,6 +47,7 @@ Install Bun: https://bun.sh
 
 - Some OpenCode free model ids are region-sensitive (beam/crouton/pulse/muse-spark).
 - Free quota is pooled per egress IP and rate-limited; heavy use may trigger `FreeUsageLimitError`.
+- Local state (session map, Bun worker) is written to `~/.freiheit`; override with `FREIHEIT_HOME`.
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/freiheit?style=flat&colorA=080f12&colorB=1fa669
